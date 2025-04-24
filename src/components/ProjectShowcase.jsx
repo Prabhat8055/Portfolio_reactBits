@@ -66,7 +66,7 @@ const ProjectShowcase = () => {
               transition={{ duration: 0.3 }}
             >
               <SpotlightCard
-                className="p-5 h-[40vh] flex flex-col justify-between"
+                className="p-5 h-[43vh] flex flex-col justify-between"
                 spotlightColor="rgba(255, 0, 85, 0.2)"
               >
                 <img
@@ -93,7 +93,7 @@ const ProjectShowcase = () => {
             </motion.div>
           ))}
           <div className="md:col-span-2 w-full">
-            <div className="absolute w-[90vw] md:w-[49.1vw] h-[40vh] md:h-[40vh] flex items-center justify-center flex-col backdrop-blur-[1px] responsive p-6 md:p-0 ">
+            <div className="absolute w-[90vw] md:w-[49.1vw] h-[40vh] md:h-[43vh] flex items-center justify-center flex-col backdrop-blur-[1px] responsive p-6 md:p-0 ">
               <h1 className="text-xl md:text-3xl font-bold text-center leading-relaxed">
                 For more Projects Jump on my github
               </h1>

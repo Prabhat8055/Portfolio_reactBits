@@ -68,7 +68,6 @@ const ContactPage = ({
     event.currentTarget.style.color = originalColor;
   };
 
-
   const inputGroupStyle = {
     marginBottom: "15px",
   };
@@ -76,9 +75,8 @@ const ContactPage = ({
   const labelStyle = {
     display: "block",
     marginBottom: "5px",
-    fontSize:'1.1rem',
-    letterSpacing:"2px",
-    
+    fontSize: "1.1rem",
+    letterSpacing: "2px",
   };
 
   const inputStyle = {
@@ -118,7 +116,7 @@ const ContactPage = ({
     <>
       <div
         id="contact"
-        className=" bg-black text-white flex flex-col items-center min-h-screen py-10 relative overflow-hidden" // Added relative and overflow-hidden for Aurora positioning
+        className=" bg-black text-white flex flex-col items-center min-h-screen py-10 relative overflow-hidden"
         style={{ padding: "50px" }}
       >
         <BlurText
@@ -134,7 +132,7 @@ const ContactPage = ({
         >
           <div
             className="flex-1 md:pr-10 mb-8 md:mb-0"
-            style={{ paddingRight: "40px" }}
+            style={{ padding: "40px" }}
           >
             {/* Added margin control for mobile */}
             <div className="text-[1.2rem] mb-[30px] text-center">
@@ -146,14 +144,13 @@ const ContactPage = ({
                 You can contact me via the form or at
                 <a href="">
                   <br />
-                  "
+
                   <ShinyText
                     text="prabhatbhasme@gmail.com"
                     disabled={false}
                     speed={3}
                     className="custom-class"
                   />
-                  "
                 </a>
               </div>
             </div>

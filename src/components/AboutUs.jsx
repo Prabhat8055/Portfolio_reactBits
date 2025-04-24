@@ -33,7 +33,7 @@ const AboutUs = () => {
             delay={150}
             animateBy="words"
             direction="top"
-            className=" text-center text-6xl mb-8 font-extrabold font-serif"
+            className=" text-center text-5xl mb-8 font-extrabold font-serif"
           />
           <p className="leading-relaxed text-justify  text-gray-400 ">
             Full-stack dev. Half-stack sleep. Professional Googler with a degree
@@ -51,7 +51,8 @@ const AboutUs = () => {
       </div>
 
       {/* Switch to turn off and on bacground particles */}
-      <div className="absolute bottom-[-100vh] right-4 flex items-center z-40">
+
+      <div className="absolute bottom-[-100vh] right-4 flex items-center z-50">
         <label className="text-gray-300" style={{ padding: "10px" }}>
           Waves
         </label>

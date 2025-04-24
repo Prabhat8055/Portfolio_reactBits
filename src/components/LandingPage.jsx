@@ -9,17 +9,18 @@ const ThreeJsCanvas = lazy(() => import("./ThreeJsCanvas.jsx"));
 const LandingPage = () => {
   return (
     <>
-      <section id="home" className="flex justify-center items-center h-[90vh] ">
+      <section id="home" className="relative h-[90vh] overflow-hidden">
         <ErrorBoundary fallback={fallbackRender}>
           <Suspense fallback={<div>Loading...</div>}>
             <ThreeJsCanvas />
           </Suspense>
         </ErrorBoundary>
-        <div className="absolute text-center">
+        <div className="absolute inset-0 flex flex-col justify-center text-center items-center pointer-events-none">
           <motion.span
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
+            className="text-center"
           >
             <BlurText
               text="Hi I'am Prabhat Bhasme "

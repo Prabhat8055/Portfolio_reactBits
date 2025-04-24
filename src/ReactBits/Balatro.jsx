@@ -216,5 +216,5 @@ export default function Balatro({
     containerRef,
   ]);
 
-  return <div ref={containerRef} className="rounded-4xl  w-full h-[40vh] kaka" />;
+  return <div ref={containerRef} className="rounded-4xl  w-full h-[43vh] kaka" />;
 }
