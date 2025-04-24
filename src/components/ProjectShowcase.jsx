@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import SpotlightCard from "../ReactBits/SpotlightCard";
 import BlurText from "../ReactBits/BlurText.jsx";
 import Balatro from "../ReactBits/Balatro.jsx";

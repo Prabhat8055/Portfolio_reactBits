@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import Waves from "../ReactBits/Waves.jsx";
 import { Switch } from "@headlessui/react";
 import BlurText from "../ReactBits/BlurText.jsx";
-import Orb from "../ReactBits/orb.jsx";
 
 const AboutUs = () => {
   const [showParticles, setShowParticles] = useState(true);
