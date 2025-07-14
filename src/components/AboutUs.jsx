@@ -9,7 +9,7 @@ const AboutUs = () => {
 
   const portfolio = () => {
     window.open(
-      "https://drive.google.com/file/d/1GujmWLkYzMoDsKoPstKc9Wv5S5EyF-2w/view?usp=sharing"
+      "https://drive.google.com/file/d/1AP3QrEunVjbtRYyvN8m61InSrD1dA50g/view?usp=drive_link"
     );
   };
 
