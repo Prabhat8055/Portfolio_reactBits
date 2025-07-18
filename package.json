@@ -11,12 +11,13 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "@google/generative-ai": "^0.24.1",
     "@headlessui/react": "^2.2.0",
     "@react-spring/web": "^9.7.5",
     "@react-three/drei": "^9.122.0",
     "@react-three/fiber": "^8.18.0",
     "@react-three/postprocessing": "^2.16.3",
-    "@tailwindcss/vite": "^4.0.15",
+    "@tailwindcss/vite": "^4.1.11",
     "@types/three": "^0.169.0",
     "framer-motion": "^12.6.3",
     "gl-matrix": "^3.4.3",
@@ -31,10 +32,11 @@
     "react-router-dom": "^6.28.0",
     "react-scroll": "^1.9.0",
     "react-scrollspy": "^3.4.3",
+    "react-simple-typewriter": "^5.0.1",
     "react-vertical-timeline-component": "^3.5.3",
     "swiper": "^11.1.14",
     "TagCloud": "^2.5.0",
-    "tailwindcss": "^4.0.15",
+    "tailwindcss": "^4.1.11",
     "three": "^0.169.0"
   },
   "devDependencies": {

@@ -9,7 +9,7 @@ const AboutUs = lazy(() => import("./components/AboutUs"));
 const ProjectShowcase = lazy(() => import("./components/ProjectShowcase"));
 const ContactPage = lazy(() => import("./components/ContactPage"));
 // const Squares = lazy(() => import("./components/Squares.jsx"));
-const ComingSoon = lazy(() => import("./components/ComingSoon.jsx"));
+const ChatBot = lazy(() => import("./components/ChatBot.jsx"));
 
 function App() {
   //preloader
@@ -55,7 +55,7 @@ function App() {
                   </>
                 }
               />
-              <Route path="/myjourny" element={<ComingSoon />} />
+              <Route path="/myjourny" element={<ChatBot />} />
             </Routes>
           </Suspense>
         </div>

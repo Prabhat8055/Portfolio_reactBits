@@ -45,11 +45,11 @@ const NavLinks = ({ closeMenu }) => {
           </li>
         </Scrollspy>
       ) : (
-        <Link to="/" onClick={closeMenu}>
+        <Link to="/" onClick={closeMenu} className=" hover:text-gray-300">
           Home
         </Link>
       )}
-      <Link to="/myjourny" onClick={closeMenu}>
+      <Link to="/myjourny" onClick={closeMenu} className=" hover:text-gray-300">
         More
       </Link>
     </div>
