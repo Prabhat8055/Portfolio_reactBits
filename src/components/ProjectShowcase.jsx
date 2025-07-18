@@ -50,7 +50,7 @@ const ProjectShowcase = () => {
       style={{ padding: "20px" }}
     >
       <div>
-        <div className="w-full flex justify-center" style={{ padding: "30px" }}>
+        <div className="w-full flex justify-center">
           <BlurText
             text="Projects"
             delay={150}
